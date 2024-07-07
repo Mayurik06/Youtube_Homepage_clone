@@ -1,0 +1,139 @@
+.sidebar {
+    position: fixed;
+    top: 55px;
+    bottom: 0;
+    left: 5px;
+    z-index: 2;
+    padding-top: 5px;
+    background-color: white;
+    transition: all 0.015s;
+}
+
+.width-contain {
+    width: 64px;
+}
+
+.sidebar-link {
+    height: 74px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 1px;
+    transition: background-color 0.15s;
+}
+
+.sidebar-link:hover,
+.sidebar-link-sec:hover,
+.you-head:hover {
+    background-color: rgb(235, 235, 235);
+}
+
+.sidebar-icon {
+    height: 24px;
+    margin-bottom: 4px;
+}
+
+.sidebar-menu {
+    font-size: 10px;
+}
+
+
+/*sidebar-sec*/
+
+.width-container {
+    width: 230px;
+    overflow-y: hidden;
+}
+
+.width-container:hover {
+    overflow-y: scroll;
+}
+
+.sidebar-link-sec {
+    height: 40px;
+    column-gap: 25px;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 15px 10px 15px 10px;
+    margin: 0 10px 0 5px;
+    transition: background-color 0.15s;
+}
+
+.sidebar-link-sec,
+.sidebar-head-container {
+    display: flex;
+    align-items: center;
+    padding: 15px 10px 15px 10px;
+    transition: background-color 0.15s;
+    border-radius: 8px;
+}
+
+.sidebar-menu-sec {
+    font-size: 14px;
+}
+
+.yousection {
+    border-top: 1px solid rgb(228, 228, 228);
+    border-bottom: 1px solid rgb(228, 228, 228);
+    margin-top: 15px;
+    padding: 10px 0;
+}
+
+.sidebar-head-container {
+    margin: 0px 10px 0px 5px;
+    column-gap: 10px;
+}
+
+.sidebar-head {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.sidebar-head-icon {
+    height: 13px;
+}
+
+.subscription-section,
+.exploresection,
+.moresection,
+.settingsection {
+    border-bottom: 1px solid rgb(228, 228, 228);
+    padding: 10px 0;
+}
+
+.subscribe-channel {
+    height: 24px;
+    border-radius: 12px;
+}
+
+.moreyoutube-icons {
+    height: 24px;
+}
+
+.footer {
+    padding: 15px 10px 15px 10px;
+    margin: 0 10px 0 5px;
+}
+
+.footer-text {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 18px;
+    color: #606060;
+    word-spacing: 3px;
+    margin-bottom: 8px;
+}
+
+.copyright-text {
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #909090;
+}
+
+.hiden-div {
+    display: none;
+}

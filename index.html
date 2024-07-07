@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube</title>
+    <link rel="stylesheet" href="styles/youtube.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+
+</head>
+
+<body>
+    <!--header-->
+    <header class="header">
+        <div class="left-section">
+            <button class="hamburger-menu"> <img src="icons/hamburger-menu.svg" alt=""></button>
+            <img class="youtube-logo" src="channel-picture/YouTube-Logo.png" alt="">
+        </div>
+        <div class="middle-section">
+            <div class="first-container">
+                <div class="search-container">
+
+                    <div class="whole-search-bar">
+                        <div class="search-inside-container active-icon">
+                            <img class="search-icon-inside" src="icons/search.svg" alt="">
+                        </div>
+                        <div class="search-box">
+                            <input class="search-bar" type="text" placeholder="Search" autocomplete="off">
+                        </div>
+                        <button class="clear-search-btn active-icon"> 
+                     <img class="clear-search-icon" src="icons/clear-search.png" alt="">
+                   </button>
+                    </div>
+
+
+
+                </div>
+
+                <button class="search-button">
+                     <img class="search-icon" src="icons/search.svg" alt="">
+                      <div class="tooltip">Search</div>
+            </button>
+
+            </div>
+
+            <button class="voice-search-button">
+                <img class="voice-search-icon" src="icons/voice-search-icon.svg" alt="">
+                <div class="tooltip">Search with your voice</div>
+            </button>
+        </div>
+        <div class="right-section">
+            <div class="upload-icon-container">
+                <img class="upload-icon" src="icons/upload.svg" alt="">
+                <div class="tooltip">Create</div>
+            </div>
+
+            <div class="notification-container">
+                <img class="notification-icon" src="icons/notifications.svg" alt="">
+                <div class="notifications-count">9+</div>
+                <div class="tooltip">Notifications</div>
+            </div>
+
+            <img class="profile-picture" src="channel-picture/profile.jpg" alt=""></div>
+
+    </header>
+
+    <!--Sidebar-->
+    <nav class="sidebar width-contain" id="small-sidebar">
+        <div class="sidebar-link sidebar-margin">
+            <img class="sidebar-icon" src="icons/home.svg" alt="">
+            <div class="sidebar-menu">Home</div>
+        </div>
+
+        <div class="sidebar-link">
+            <img class="sidebar-icon" src="icons/icons8-youtube-shorts-24.png" alt="">
+            <div class="sidebar-menu">Shorts</div>
+        </div>
+
+        <div class="sidebar-link">
+            <img class="sidebar-icon" src="icons/subscriptions.svg" alt="">
+            <div class="sidebar-menu">Subscriptions</div>
+        </div>
+
+        <div class="sidebar-link">
+            <img class="sidebar-icon" src="icons/library.svg" alt="">
+            <div class="sidebar-menu">You</div>
+        </div>
+
+        <div class="sidebar-link">
+            <img class="sidebar-icon" src="icons/arrow-line-down-light.svg" alt="">
+            <div class="sidebar-menu">Downloads</div>
+        </div>
+
+
+
+
+    </nav>
+    <!--sec-sidebar-->
+    <nav class="sidebar width-container active" id="long-sidebar">
+        <div class="sidebar-link-sec">
+            <img src="icons/home.svg" alt="" class="sidebar-icon">
+            <p class="sidebar-menu-sec">Home</p>
+        </div>
+
+        <div class="sidebar-link-sec">
+            <img src="icons/icons8-youtube-shorts-24.png" alt="" class="sidebar-icon">
+            <p class="sidebar-menu-sec">Shorts</p>
+        </div>
+
+        <div class="sidebar-link-sec">
+            <img src="icons/subscriptions.svg" alt="" class="sidebar-icon">
+            <p class="sidebar-menu-sec">Subscriptions</p>
+        </div>
+
+        <div class="yousection">
+            <div class="sidebar-head-container you-head">
+                <p class="sidebar-head">YOU</p>
+                <img src="icons/caret-right-light.svg" alt="" class="sidebar-head-icon">
+            </div>
+
+
+            <div class="sidebar-link-sec">
+                <img src="icons/user-square-light.svg" alt="" class="sidebar-icon">
+                <p class="sidebar-menu-sec">Your channel</p>
+            </div>
+
+            <div class="sidebar-link-sec">
+                <img src="icons/clock-counter-clockwise-light.svg" alt="" class="sidebar-icon">
+                <p class="sidebar-menu-sec">History</p>
+            </div>
+
+            <div class="sidebar-link-sec">
+                <img src="icons/video-light.svg" alt="" class="sidebar-icon">
+                <p class="sidebar-menu-sec">Your Videos</p>
+            </div>
+
+            <div class="sidebar-link-sec">
+                <img src="icons/clock-light.svg" alt="" class="sidebar-icon">
+                <p class="sidebar-menu-sec">Watch Later</p>
+            </div>
+
+            <div class="sidebar-link-sec">
+                <img src="icons/arrow-line-down-light.svg" alt="" class="sidebar-icon">
+                <p class="sidebar-menu-sec">Downloads</p>
+            </div>
+
+            <div class="sidebar-link-sec hiden-div" id="hiden-div">
+                <img src="icons/thumbs-up-light.svg" alt="" class="sidebar-icon">
+                <p class="sidebar-menu-sec">Liked videos</p>
+            </div>
+
+            <div class="sidebar-link-sec hiden-div" id="hiden-div">
+                <img src="icons/queue-light.svg" alt="" class="sidebar-icon">
+                <p class="sidebar-menu-sec">Fav</p>
+            </div>
+
+            <div class="sidebar-link-sec hiden-div" id="hiden-div">
+                <img src="icons/queue-light.svg" alt="" class="sidebar-icon">
+                <p class="sidebar-menu-sec">My Playlist</p>
+            </div>
+
+            <div class="sidebar-link-sec" id="show-more">
+                <img src="icons/caret-down-light.svg" alt="" class="sidebar-icon show-more-icon">
+                <p class="sidebar-menu-sec">Show more</p>
+            </div>
+        </div>
+
+        <div class="subscription-section">
+            <div class="sidebar-head-container">
+                <div class="sidebar-head">Subscription</div>
+            </div>
+
+            <div class="sidebar-link-sec">
+                <img src="channel-picture/channel-3.jpg" alt="" class="subscribe-channel">
+                <p class="sidebar-menu-sec">Captain Nick</p>
+            </div>
+
+            <div class="sidebar-link-sec">
+                <img src="channel-picture/sandeepmaheshwari-channel.jpg" alt="" class="subscribe-channel">
+                <p class="sidebar-menu-sec">Sandeep Mahesh...</p>
+            </div>
+
+            <div class="sidebar-link-sec">
+                <img src="channel-picture/cs-chaneel.jpg" alt="" class="subscribe-channel">
+                <p class="sidebar-menu-sec">CS Engineering</p>
+            </div>
+
+            <div class="sidebar-link-sec">
+                <img src="channel-picture/technicalguruji-channel.jpg" alt="" class="subscribe-channel">
+                <p class="sidebar-menu-sec">Technical Guruji</p>
+            </div>
+
+            <div class="sidebar-link-sec hiden-div" id="hidden-channel">
+                <img src="channel-picture/bright-side-channel.jpg" alt="" class="subscribe-channel">
+                <p class="sidebar-menu-sec">BRIGHT SIDE</p>
+            </div>
+
+            <div class="sidebar-link-sec hiden-div" id="hidden-channel">
+                <img src="channel-picture/bb-channel.jpg" alt="" class="subscribe-channel">
+                <p class="sidebar-menu-sec">BB Ki Vines</p>
+            </div>
+
+            <div class="sidebar-link-sec hiden-div" id="hidden-channel">
+                <img src="channel-picture/carryminati-channel.jpg" alt="" class="subscribe-channel">
+                <p class="sidebar-menu-sec">CarryMinati</p>
+            </div>
+
+            <div class="sidebar-link-sec" id="show-more-channel">
+                <img src="icons/caret-down-light.svg" alt="" class="sidebar-icon show-channel-icon">
+                <p class="sidebar-menu-sec">Show <span>3</span> more</p>
+            </div>
+        </div>
+
+
+        <div class="exploresection">
+            <div class="sidebar-head-container">
+                <div class="sidebar-head">Explore</div>
+            </div>
+
+            <div class="sidebar-link-sec">
+                <img src="icons/fire-light.svg" alt="" class="sidebar-icon">
+                <p class="sidebar-menu-sec">Trending</p>
+            </div>
+
+
+            <div class="sidebar-link-sec">
+                <img src="icons/shopping-bag-light.svg" alt="" class="sidebar-icon">
+                <p class="sidebar-menu-sec">Shopping</p>
+            </div>
+
+            <div class="sidebar-link-sec">
+                <img src="icons/music-note-light.svg" alt="" class="sidebar-icon">
+                <p class="sidebar-menu-sec">Music</p>
+            </div>
+
+            <div class="sidebar-link-sec">
+                <img src="icons/film-slate-light.svg" alt="" class="sidebar-icon">
+                <p class="sidebar-menu-sec">Movies</p>
+            </div>
+
+            <div class="sidebar-link-sec">
+                <img src="icons/broadcast-light.svg" alt="" class="sidebar-icon">
+                <p class="sidebar-menu-sec">Live</p>
+            </div>
+
+            <div class="sidebar-link-sec">
+                <img src="icons/game-controller-light.svg" alt="" class="sidebar-icon">
+                <p class="sidebar-menu-sec">Gaming</p>
+            </div>
+
+            <div class="sidebar-link-sec">
+                <img src="icons/newspaper-light.svg" alt="" class="sidebar-icon">
+                <p class="sidebar-menu-sec">News</p>
+            </div>
+
+            <div class="sidebar-link-sec">
+                <img src="icons/trophy-light.svg" alt="" class="sidebar-icon">
+                <p class="sidebar-menu-sec">Sports</p>
+            </div>
+
+            <div class="sidebar-link-sec">
+                <img src="icons/lightbulb-light.svg" alt="" class="sidebar-icon">
+                <p class="sidebar-menu-sec">Learning</p>
+            </div>
+
+            <div class="sidebar-link-sec">
+                <img src="icons/coat-hanger-light.svg" alt="" class="sidebar-icon">
+                <p class="sidebar-menu-sec">Fashion & Beauty</p>
+            </div>
+
+            <div class="sidebar-link-sec">
+                <img src="icons/apple-podcasts-logo-light.svg" alt="" class="sidebar-icon">
+                <p class="sidebar-menu-sec">Poadcasts</p>
+            </div>
+        </div>
+
+
+        <div class="moresection">
+            <div class="sidebar-head-container">
+                <div class="sidebar-head">More from YouTube</div>
+            </div>
+
+            <div class="sidebar-link-sec">
+                <img src="icons/youtube-preminum.png" alt="" class="moreyoutube-icons">
+                <p class="sidebar-menu-sec">YouTube Premium</p>
+            </div>
+
+            <div class="sidebar-link-sec">
+                <img src="icons/icons8-youtube-studio-48.png" alt="" class="moreyoutube-icons">
+                <p class="sidebar-menu-sec">YouTube Studio</p>
+            </div>
+
+            <div class="sidebar-link-sec">
+                <img src="icons/icons8-youtube-music-48.png" alt="" class="moreyoutube-icons">
+                <p class="sidebar-menu-sec">YouTube Music</p>
+            </div>
+
+            <div class="sidebar-link-sec">
+                <img src="icons/icons8-youtube-48.png" alt="" class="moreyoutube-icons">
+                <p class="sidebar-menu-sec">YouTube Kids</p>
+            </div>
+        </div>
+
+
+        <div class="settingsection">
+            <div class="sidebar-link-sec">
+                <img src="icons/gear-light.svg" alt="" class="sidebar-icon">
+                <p class="sidebar-menu-sec">Settings</p>
+            </div>
+
+            <div class="sidebar-link-sec">
+                <img src="icons/flag-light.svg" alt="" class="sidebar-icon">
+                <p class="sidebar-menu-sec">Report history</p>
+            </div>
+
+            <div class="sidebar-link-sec">
+                <img src="icons/question-light.svg" alt="" class="sidebar-icon">
+                <p class="sidebar-menu-sec">Help</p>
+            </div>
+
+            <div class="sidebar-link-sec">
+                <img src="icons/chat-light.svg" alt="" class="sidebar-icon">
+                <p class="sidebar-menu-sec">Send Feedback</p>
+            </div>
+        </div>
+        <footer class="footer">
+            <p class="footer-text">About Press Copyright Contact us Creators Advertise Developers
+            </p>
+            <p class="footer-text">Terms Privacy Policy & Safety How YouTube works Test new features</p>
+            <p class="copyright-text">&copy; 2023 Google LLc</p>
+        </footer>
+    </nav>
+
+    <!--Main-->
+    <main>
+        <!-- <section class="slider-wrapper">
+            <div class="slider-btn-container">
+                <button class="slider-prev slider-btn"><img src="icons/caret-left-light.svg" alt="" class="slider-arrow"></button>
+            </div>
+            <div class="slider-container">
+                <button class="slider-item active-item">All</button>
+                <button class="slider-item">Mixes</button>
+                <button class="slider-item">Podcast</button>
+                <button class="slider-item">Music</button>
+                <button class="slider-item">Comedy</button>
+                <button class="slider-item">Health</button>
+                <button class="slider-item">Animation</button>
+                <button class="slider-item">CSS</button>
+                <button class="slider-item">Coding</button>
+                <button class="slider-item">Computer science</button>
+                <button class="slider-item">Horror</button>
+                <button class="slider-item">Receipes</button>
+                <button class="slider-item">Live</button>
+                <button class="slider-item">Watched</button>
+                <button class="slider-item">Recently Uploaded</button>
+                <button class="slider-item">new to you</button>
+            </div>
+            <div class="slider-btn-container">
+                <button class="slider-next slider-btn"><img src="icons/caret-right-light.svg" alt="" class="slider-arrow"></button>
+            </div>
+        </section> -->
+
+        <section class="video-grid" id="video-grid">
+
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnail/thumbnail-1.jpg" alt="">
+                    <div class="video-time">14:20</div>
+                </div>
+
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="channel-picture/channels-1_profile.jpg" alt="">
+                    </div>
+
+                    <div class="video-info">
+                        <p class="video-title"> Shinchan New Episode 23-11-2023 - Episode 03 - Shinchan Cartoon - Shinchan In Hindi-...</p>
+                        <p class="video-author">Martin Arteta &#9834;</p>
+                        <p class="video-stats">522K views &#183; 2 days ago</p>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnail/thumbnail-2.webp" alt="">
+                    <div class="video-time">8:10</div>
+                </div>
+
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="channel-picture/channels-2_profile.jpg" alt="">
+                    </div>
+
+                    <div class="video-info">
+                        <p class="video-title"> 20 Minute Yogasana flow for weight loss | वजन कम करने के लिए योग | All...</p>
+                        <p class="video-author">Satvic Yoga</p>
+                        <p class="video-stats">316K views &#183; 6 months ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnail/thumbnail-3.webp" alt="">
+                    <div class="video-time">20:08</div>
+                </div>
+
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="channel-picture/channel-3.jpg" alt="">
+                    </div>
+
+                    <div class="video-info">
+                        <p class="video-title">Struggles of Roommates</p>
+                        <p class="video-author">Niharika Singh</p>
+                        <p class="video-stats">1.2M views &#183; 6 months ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnail/thumbnail-4.webp" alt="">
+                    <div class="video-time">5:18</div>
+                </div>
+
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="channel-picture/channel-4.jpg" alt="">
+                    </div>
+
+                    <div class="video-info">
+                        <p class="video-title">Special devotional songs| Krishna Songs</p>
+                        <p class="video-author">Swasti Mehul</p>
+                        <p class="video-stats">800K views &#183; 2 months ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnail/thumbnail-5.webp" alt="">
+                    <div class="video-time">15:00</div>
+                </div>
+
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="channel-picture/channel-5.jpg" alt="">
+                    </div>
+
+                    <div class="video-info">
+                        <p class="video-title">Saying yes for 24hr</p>
+                        <p class="video-author">RIMORAV Vlogs</p>
+                        <p class="video-stats">500K views &#183; 4 years ago</p>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnail/thumbnail-6.webp" alt="">
+                    <div class="video-time">20:23</div>
+                </div>
+
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="channel-picture/channel-6.jpg" alt="">
+                    </div>
+
+                    <div class="video-info">
+                        <p class="video-title">Wrongn Virat unplugged</p>
+                        <p class="video-author">Star Sports</p>
+                        <p class="video-stats">900K views &#183; 8 months ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnail/thumbnail-6.webp" alt="">
+                    <div class="video-time">20:23</div>
+                </div>
+
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="channel-picture/channel-6.jpg" alt="">
+                    </div>
+
+                    <div class="video-info">
+                        <p class="video-title">Wrongn Virat unplugged</p>
+                        <p class="video-author">Star Sports</p>
+                        <p class="video-stats">900K views &#183; 8 months ago</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnail/thumbnail-6.webp" alt="">
+                    <div class="video-time">20:23</div>
+                </div>
+
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="channel-picture/channel-6.jpg" alt="">
+                    </div>
+
+                    <div class="video-info">
+                        <p class="video-title">Wrongn Virat unplugged</p>
+                        <p class="video-author">Star Sports</p>
+                        <p class="video-stats">900K views &#183; 8 months ago</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="youtube.js"></script>
+</body>
+
+</html>
+
+</html>
+
+</html>
+
+</html>
